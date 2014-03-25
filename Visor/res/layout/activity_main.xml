@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.visor.app.MainActivity"
+    tools:ignore="MergeRootFrame">    
+    
+    <Button
+        android:id="@+id/MainLoginButton"
+        android:text="Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+        
+    <Button
+        android:id="@+id/MainScanButton"
+        android:text="Scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/MainLoginButton"/>
+        
+</RelativeLayout>
+
+<!--
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  
+  <FrameLayout
+    android:id="@+id/cameraPreview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+  />
+
+  <TextView
+    android:id="@+id/scanText"
+    android:text="Scanning..."
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent">
+  </TextView>
+  <Button
+    android:id="@+id/ScanButton"
+    android:text="Scan"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+  />
+  
+  </LinearLayout>
+  
+-->  
